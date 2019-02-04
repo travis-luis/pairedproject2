@@ -7,7 +7,9 @@
     --darkgray: #e6e6e6;
 
 }
-
+/*.anchor {*/
+    /*line-height: 100px;*/
+/*}*/
 body{
     background-color: var(--darkgray);
     font-family: 'Abel', sans-serif;
@@ -44,12 +46,17 @@ h5 {
     text-transform: uppercase;
 }
 
+hr{
+    width: 70%;
+}
 p {
 
 }
 
 .navbar-brand {
     height: 50px;
+    font-size: 2rem;
+    margin-bottom: 5px;
 
 }
 
@@ -59,10 +66,11 @@ p {
     margin-top: -30px;
 }
  .codeup {
-    font-size: 64px;
+    font-size: 50px;
 }
 .nav-link {
     font-size: 20px;
+    /*padding: 0 -2rem;*/
 }
 .circle {
     max-width: 10em;
@@ -110,3 +118,41 @@ p {
         border: 5px solid #fff;
     }
 }
+
+@media screen and (min-width: 960px) {
+
+    main{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .pictures {
+        float: left;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .list_pic{
+        width: 64px;
+        height: 64px;
+    }
+    
+}
+
+.card {
+    margin-left: 18px;
+
+}
+
+hr {
+    width: 100%;
+}
+
+ul {
+    float:left;
+    width:40%;
+}
+
+/*.selected_work{*/
+    /*text-align: left;*/
+/*}*/
