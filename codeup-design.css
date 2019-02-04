@@ -10,38 +10,78 @@
 
 body{
     background-color: var(--darkgray);
+    font-family: 'Abel', sans-serif;
 }
+
 
 h1 {
     font-size: 64px;
     font-family: 'Anton', sans-serif;
-
+    text-transform: uppercase;
 }
 
 h2 {
     font-size: 48px;
     font-family: 'Anton', sans-serif;
-
+    text-transform: uppercase;
 }
 
 h3 {
     font-size: 40px;
     font-family: 'Anton', sans-serif;
-
+    text-transform: uppercase;
 }
 
 h4 {
     font-size: 32px;
     font-family: 'Anton', sans-serif;
-
+    text-transform: uppercase;
 }
 
 h5 {
     font-size: 28px;
     font-family: 'Anton', sans-serif;
-
+    text-transform: uppercase;
 }
 
 p {
-    font-family: 'Abel', sans-serif;
+
 }
+
+.navbar-brand {
+    height: 50px;
+
+}
+
+.navbar-brand img {
+    width: 105px;
+    height: 105px;
+    margin-top: -30px;
+}
+ .codeup {
+    font-size: 64px;
+}
+.nav-link {
+    font-size: 20px;
+}
+.circle {
+    max-width: 10em;
+    height: 10em;
+    border-radius: 5em;
+    border: 10px solid #fff;
+    color: #fff;
+}
+
+.design {
+    background: var(--red);
+}
+.develop {
+    background: var(--orange);
+}
+.support {
+    background: var(--green);
+}
+.host {
+    background: var(--blue);
+}
+
