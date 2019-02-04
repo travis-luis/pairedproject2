@@ -85,3 +85,20 @@ p {
     background: var(--blue);
 }
 
+.card {
+    background-color: var(--darkgray);
+    border: none;
+}
+
+.badge{
+    max-height: 18px;
+    max-width: 18px;
+}
+
+.pictures img {
+    /*max-width: 339px;*/
+    /*max-height: 225px;*/
+    border: 10px solid var(--lightgray);
+    border-radius: 5px;
+}
+
