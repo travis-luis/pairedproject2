@@ -1,0 +1,47 @@
+:root {
+    --blue: #00ABA9;
+    --red: #e6563b;
+    --orange: #eb9d3a;
+    --green: #7cb06c;
+    --lightgray: #f0f0f0;
+    --darkgray: #e6e6e6;
+
+}
+
+body{
+    background-color: var(--darkgray);
+}
+
+h1 {
+    font-size: 64px;
+    font-family: 'Anton', sans-serif;
+
+}
+
+h2 {
+    font-size: 48px;
+    font-family: 'Anton', sans-serif;
+
+}
+
+h3 {
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+
+}
+
+h4 {
+    font-size: 32px;
+    font-family: 'Anton', sans-serif;
+
+}
+
+h5 {
+    font-size: 28px;
+    font-family: 'Anton', sans-serif;
+
+}
+
+p {
+    font-family: 'Abel', sans-serif;
+}
