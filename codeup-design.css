@@ -88,7 +88,9 @@ p {
     font-size: 20px;
     /*padding: 0 -2rem;*/
     text-decoration : none;
+    padding: 8px;
 }
+
 .circle {
     max-width: 10em;
     height: 10em;
@@ -148,20 +150,20 @@ p {
         border: 5px solid #fff;
     }
 }
-@media screen and  (min-width: 768px) {
-    .navbar {
-        position: relative;
-    }
-    /*.navbar-brand {*/
-        /*position: absolute;*/
+/*@media screen and  (min-width: 768px) {*/
+    /*.navbar {*/
+        /*position: relative;*/
     /*}*/
-    .codeup {
+    /*!*.navbar-brand {*!*/
+        /*!*position: absolute;*!*/
+    /*!*}*!*/
+    /*.codeup {*/
 
-        position: absolute;
-        top: 10px;
-    right: 150px;
-    }
-}
+        /*position: absolute;*/
+        /*top: 10px;*/
+    /*right: 150px;*/
+    /*}*/
+/*}*/
 
 @media screen and (min-width: 960px) {
 
