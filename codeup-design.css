@@ -10,6 +10,12 @@
 /*.anchor {*/
     /*line-height: 100px;*/
 /*}*/
+
+/**************
+*   general   *
+**************/
+
+
 body{
     background-color: var(--darkgray);
     font-family: 'Abel', sans-serif;
@@ -53,11 +59,21 @@ p {
 
 }
 
+
+/*************
+*   navbar   *
+*************/
+
 .navbar-brand {
     height: 50px;
-    font-size: 2rem;
     margin-bottom: 5px;
 
+}
+.navbar-brand a {
+    text-size: 4em;
+}
+.navbar-brand:hover a {
+    text-decoration: none;
 }
 
 .navbar-brand img {
@@ -71,6 +87,7 @@ p {
 .nav-link {
     font-size: 20px;
     /*padding: 0 -2rem;*/
+    text-decoration : none;
 }
 .circle {
     max-width: 10em;
@@ -111,6 +128,19 @@ p {
     border-radius: 5px;
 }
 
+.code-med {
+    display: none
+}
+.fa-twitter {
+    color: #00aced;
+}
+
+
+
+/********************
+*   media queries   *
+********************/
+
 @media screen and (min-width: 540px) {
     .circle {
         max-width: 7em;
@@ -118,9 +148,26 @@ p {
         border: 5px solid #fff;
     }
 }
+@media screen and  (min-width: 768px) {
+    .navbar {
+        position: relative;
+    }
+    /*.navbar-brand {*/
+        /*position: absolute;*/
+    /*}*/
+    .codeup {
+
+        position: absolute;
+        top: 10px;
+    right: 150px;
+    }
+}
 
 @media screen and (min-width: 960px) {
 
+    .code-med {
+        display: inline;
+    }
     main{
         width: 80%;
         margin: 0 auto;
@@ -152,7 +199,3 @@ ul {
     float:left;
     width:40%;
 }
-
-/*.selected_work{*/
-    /*text-align: left;*/
-/*}*/
