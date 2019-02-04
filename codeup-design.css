@@ -70,6 +70,7 @@ p {
     border-radius: 5em;
     border: 10px solid #fff;
     color: #fff;
+
 }
 
 .design {
@@ -102,3 +103,10 @@ p {
     border-radius: 5px;
 }
 
+@media screen and (min-width: 540px) {
+    .circle {
+        max-width: 7em;
+        height: 7em;
+        border: 5px solid #fff;
+    }
+}
