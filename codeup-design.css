@@ -12,20 +12,16 @@
 *   general   *
 **************/
 
-.navbar{
-    padding-top: 0;
-}
 body{
     background-color: var(--darkgray);
     font-family: 'Abel', sans-serif;
 }
-
-
 h1 {
     font-size: 64px;
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
 }
+
 
 h2 {
     font-size: 48px;
@@ -54,8 +50,9 @@ h5 {
 hr{
     width: 70%;
 }
-p {
 
+.navbar{
+    padding-top: 0;
 }
 
 
@@ -74,6 +71,7 @@ p {
 
 .navbar-brand:hover a {
     text-decoration: none;
+    color: var(--blue);
 }
 
 .navbar-brand img {
@@ -86,9 +84,16 @@ p {
 }
 .nav-link {
     font-size: 20px;
-    text-decoration : none;
     padding: 8px;
+    color: #000;
 }
+a:hover {
+    color: var(--blue);
+}
+
+/***********
+*   main   *
+***********/
 
 .circle {
     max-width: 10em;
@@ -98,6 +103,7 @@ p {
     color: #fff;
 
 }
+/*   background colors   */
 
 .design {
     background: var(--red);
@@ -111,16 +117,19 @@ p {
 .host {
     background: var(--blue);
 }
-
 .card {
     background-color: var(--darkgray);
     border: none;
 }
 
+/*   badge size   */
+
 .badge{
     max-height: 18px;
     max-width: 18px;
 }
+
+/*   featured project   */
 
 .pictures img {
     border: 10px solid var(--lightgray);
@@ -159,25 +168,21 @@ p {
 
     .navbar {
         padding-top: 8px;
-    }
-
-    .navbar {
-        /*position: relative;*/
         margin-bottom: 5px;
     }
+
     .navbar-brand {
         margin-top: -10px;
     }
     .codeup {
         font-size: 40px;
     }
+    .card {
+        margin-left: 18px;
+
+    }
 }
 
-
-.card {
-    margin-left: 18px;
-
-}
 @media screen and (min-width: 960px) {
 
 
@@ -204,16 +209,16 @@ p {
         width: 64px;
         height: 64px;
     }
-    
+    hr {
+        width: 100%;
+    }
+
+    ul {
+        float:left;
+        width:40%;
+    }
+
 }
 
-hr {
-    width: 100%;
-}
-
-ul {
-    float:left;
-    width:40%;
-}
 
 
