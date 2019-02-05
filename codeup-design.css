@@ -70,7 +70,7 @@ p {
 .navbar-brand {
     height: 50px;
     margin-bottom: 5px;
-
+    z-index: 1;
 }
 
 .navbar-brand:hover a {
@@ -144,6 +144,8 @@ p {
 *   media queries   *
 ********************/
 
+/*   small screen   */
+
 @media screen and (min-width: 540px) {
     .circle {
         max-width: 7em;
@@ -151,20 +153,29 @@ p {
         border: 5px solid #fff;
     }
 }
-/*@media screen and  (min-width: 768px) {*/
-    /*.navbar {*/
+
+/*   medium screen   */
+@media screen and  (min-width: 768px) {
+    .navbar {
         /*position: relative;*/
+        margin-bottom: 5px;
+    }
+    .navbar-brand {
+        margin-top: -10px;
+    }
+    .codeup {
+        font-size: 40px;
+    }
+    /*.navbar-brand {*/
+        /*position: absolute;*/
     /*}*/
-    /*!*.navbar-brand {*!*/
-        /*!*position: absolute;*!*/
-    /*!*}*!*/
     /*.codeup {*/
 
         /*position: absolute;*/
         /*top: 10px;*/
     /*right: 150px;*/
     /*}*/
-/*}*/
+}
 
 
 .card {
