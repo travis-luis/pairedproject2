@@ -64,14 +64,15 @@ p {
 *   navbar   *
 *************/
 
+.navbar {
+    margin-bottom: 100px;
+}
 .navbar-brand {
     height: 50px;
     margin-bottom: 5px;
 
 }
-.navbar-brand a {
-    text-size: 4em;
-}
+
 .navbar-brand:hover a {
     text-decoration: none;
 }
@@ -165,14 +166,24 @@ p {
     /*}*/
 /*}*/
 
+
+.card {
+    margin-left: 18px;
+
+}
 @media screen and (min-width: 960px) {
 
-    .code-med {
-        display: inline;
-    }
     main{
         width: 80%;
         margin: 0 auto;
+    }
+
+    .navbar {
+        margin-bottom: 50px;
+    }
+
+    .code-med {
+        display: inline;
     }
 
     .pictures {
@@ -186,11 +197,6 @@ p {
         height: 64px;
     }
     
-}
-
-.card {
-    margin-left: 18px;
-
 }
 
 hr {
